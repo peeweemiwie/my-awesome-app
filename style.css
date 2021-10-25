@@ -1,16 +1,21 @@
+body {
+	background: linear-gradient(to right, gray, transparent),
+		url(https://grainy-gradients.vercel.app/noise.svg);
+	filter: contrast(170%) brightness(1000%);
+}
 h1 {
-  text-align: center;
+	text-align: center;
 }
 
 img {
-  width: 90%;
-  margin: 20px auto;
-  border-radius: 20px;
-  display: block;
+	width: 90%;
+	margin: 20px auto;
+	border-radius: 20px;
+	display: block;
 }
 
 .contact-btn {
-  display: block;
-  margin: 0 auto;
-  width: 200px;
+	display: block;
+	margin: 0 auto;
+	width: 200px;
 }
